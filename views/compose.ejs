@@ -1,0 +1,30 @@
+<%- include("partials/header"); -%> 
+ <body>
+    
+ 
+<h1>Compose</h1><br>
+<form action="/compose" method="post">
+    <div class="form-group">
+        <label for="">Title</label>
+        <input type="text" class="form-control" name="postTitle">
+
+        <label for="">Post</label>
+        <textarea name="postContent" id="" class="form-control" cols="30"></textarea>
+        
+    </div>
+
+    <button type="submit" class="btn btn-primary">Publish</button>
+    <!-- <label for="titleLabel">Title</label><br>
+    <textarea name="title" id="" cols="150" rows="1"></textarea><br><br>
+    
+    <label for="postLabel">Post</label><br>
+    <textarea name="post" id="" cols="150" rows="5"></textarea><br><br>
+
+    <button type="button" class="btn btn-primary">Publish</button> -->
+
+</form>
+
+
+<%- include("partials/footer"); -%> 
+
+ </body>
